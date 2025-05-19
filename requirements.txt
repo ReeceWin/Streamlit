@@ -29,6 +29,7 @@ torchaudio==2.6.0
 torchvision==0.21.0
 tornado
 tqdm==4.67.1
+transformers==4.33.0
 typing_extensions
 tzdata
 watchdog==6.0.0
