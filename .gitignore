@@ -1,0 +1,52 @@
+# Ignore the build folder
+build/
+
+# Ignore node_modules directory
+node_modules/
+
+# Byte‐compiled Python files
+*.py[cod]
+
+# Distribution / packaging
+dist/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+
+# Streamlit cache
+.streamlit/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Unit test / coverage
+htmlcov/
+.coverage
+
+# Installer logs
+pip-log.txt
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment vars
+.env
+
+# Images
+*.png
+
+# Data files
+*.csv
+
+# Add additional rules as needed
