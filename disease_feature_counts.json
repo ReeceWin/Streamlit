@@ -1,0 +1,737 @@
+{
+  "Acne": {
+    "sample_count": 110,
+    "features": {
+      "demographics": {
+        "age_group": {
+          "AGE_18_TO_29": {
+            "count": 19,
+            "percentage": 17.3
+          },
+          "AGE_65_PLUS": {
+            "count": 17,
+            "percentage": 15.5
+          },
+          "AGE_12_TO_17": {
+            "count": 14,
+            "percentage": 12.7
+          },
+          "AGE_50_TO_64": {
+            "count": 14,
+            "percentage": 12.7
+          },
+          "AGE_30_TO_39": {
+            "count": 14,
+            "percentage": 12.7
+          },
+          "AGE_3_TO_11": {
+            "count": 14,
+            "percentage": 12.7
+          },
+          "AGE_0_TO_2": {
+            "count": 12,
+            "percentage": 10.9
+          },
+          "AGE_40_TO_49": {
+            "count": 6,
+            "percentage": 5.5
+          }
+        },
+        "sex_at_birth": {
+          "FEMALE": {
+            "count": 59,
+            "percentage": 53.6
+          },
+          "MALE": {
+            "count": 51,
+            "percentage": 46.4
+          }
+        },
+        "fitzpatrick_skin_type": {
+          "FST3": {
+            "count": 21,
+            "percentage": 19.1
+          },
+          "FST4": {
+            "count": 20,
+            "percentage": 18.2
+          },
+          "FST1": {
+            "count": 20,
+            "percentage": 18.2
+          },
+          "FST2": {
+            "count": 18,
+            "percentage": 16.4
+          },
+          "FST6": {
+            "count": 17,
+            "percentage": 15.5
+          },
+          "FST5": {
+            "count": 14,
+            "percentage": 12.7
+          }
+        }
+      },
+      "race_ethnicity": {
+        "ethnicity_white": {
+          "count": 37,
+          "percentage": 33.6
+        },
+        "ethnicity_black": {
+          "count": 38,
+          "percentage": 34.5
+        },
+        "ethnicity_asian": {
+          "count": 35,
+          "percentage": 31.8
+        }
+      },
+      "body_parts": {
+        "parts_head": {
+          "count": 36,
+          "percentage": 32.7
+        },
+        "parts_arm": {
+          "count": 31,
+          "percentage": 28.2
+        },
+        "parts_leg": {
+          "count": 49,
+          "percentage": 44.5
+        },
+        "parts_torso": {
+          "count": 52,
+          "percentage": 47.3
+        }
+      },
+      "symptoms": {
+        "symptoms_itching": {
+          "count": 40,
+          "percentage": 36.4
+        },
+        "symptoms_pain": {
+          "count": 43,
+          "percentage": 39.1
+        },
+        "symptoms_burning": {
+          "count": 43,
+          "percentage": 39.1
+        }
+      },
+      "other_symptoms": {
+        "symptoms_fever": {
+          "count": 14,
+          "percentage": 12.7
+        },
+        "symptoms_fatigue": {
+          "count": 17,
+          "percentage": 15.5
+        }
+      },
+      "textures": {
+        "raised": {
+          "count": 37,
+          "percentage": 33.6
+        },
+        "flat": {
+          "count": 36,
+          "percentage": 32.7
+        },
+        "rough": {
+          "count": 37,
+          "percentage": 33.6
+        }
+      }
+    }
+  },
+  "Tinea": {
+    "sample_count": 96,
+    "features": {
+      "demographics": {
+        "age_group": {
+          "AGE_18_TO_29": {
+            "count": 17,
+            "percentage": 17.7
+          },
+          "AGE_12_TO_17": {
+            "count": 16,
+            "percentage": 16.7
+          },
+          "AGE_30_TO_39": {
+            "count": 14,
+            "percentage": 14.6
+          },
+          "AGE_0_TO_2": {
+            "count": 13,
+            "percentage": 13.5
+          },
+          "AGE_65_PLUS": {
+            "count": 12,
+            "percentage": 12.5
+          },
+          "AGE_3_TO_11": {
+            "count": 9,
+            "percentage": 9.4
+          },
+          "AGE_40_TO_49": {
+            "count": 8,
+            "percentage": 8.3
+          },
+          "AGE_50_TO_64": {
+            "count": 7,
+            "percentage": 7.3
+          }
+        },
+        "sex_at_birth": {
+          "FEMALE": {
+            "count": 49,
+            "percentage": 51.0
+          },
+          "MALE": {
+            "count": 47,
+            "percentage": 49.0
+          }
+        },
+        "fitzpatrick_skin_type": {
+          "FST4": {
+            "count": 22,
+            "percentage": 22.9
+          },
+          "FST2": {
+            "count": 20,
+            "percentage": 20.8
+          },
+          "FST1": {
+            "count": 15,
+            "percentage": 15.6
+          },
+          "FST6": {
+            "count": 15,
+            "percentage": 15.6
+          },
+          "FST5": {
+            "count": 14,
+            "percentage": 14.6
+          },
+          "FST3": {
+            "count": 10,
+            "percentage": 10.4
+          }
+        }
+      },
+      "race_ethnicity": {
+        "ethnicity_white": {
+          "count": 34,
+          "percentage": 35.4
+        },
+        "ethnicity_black": {
+          "count": 29,
+          "percentage": 30.2
+        },
+        "ethnicity_asian": {
+          "count": 33,
+          "percentage": 34.4
+        }
+      },
+      "body_parts": {
+        "parts_head": {
+          "count": 34,
+          "percentage": 35.4
+        },
+        "parts_arm": {
+          "count": 46,
+          "percentage": 47.9
+        },
+        "parts_leg": {
+          "count": 32,
+          "percentage": 33.3
+        },
+        "parts_torso": {
+          "count": 34,
+          "percentage": 35.4
+        }
+      },
+      "symptoms": {
+        "symptoms_itching": {
+          "count": 26,
+          "percentage": 27.1
+        },
+        "symptoms_pain": {
+          "count": 28,
+          "percentage": 29.2
+        },
+        "symptoms_burning": {
+          "count": 34,
+          "percentage": 35.4
+        }
+      },
+      "other_symptoms": {
+        "symptoms_fever": {
+          "count": 18,
+          "percentage": 18.8
+        },
+        "symptoms_fatigue": {
+          "count": 10,
+          "percentage": 10.4
+        }
+      },
+      "textures": {
+        "raised": {
+          "count": 34,
+          "percentage": 35.4
+        },
+        "flat": {
+          "count": 29,
+          "percentage": 30.2
+        },
+        "rough": {
+          "count": 33,
+          "percentage": 34.4
+        }
+      }
+    }
+  },
+  "Psoriasis": {
+    "sample_count": 86,
+    "features": {
+      "demographics": {
+        "age_group": {
+          "AGE_40_TO_49": {
+            "count": 14,
+            "percentage": 16.3
+          },
+          "AGE_18_TO_29": {
+            "count": 14,
+            "percentage": 16.3
+          },
+          "AGE_12_TO_17": {
+            "count": 12,
+            "percentage": 14.0
+          },
+          "AGE_0_TO_2": {
+            "count": 10,
+            "percentage": 11.6
+          },
+          "AGE_65_PLUS": {
+            "count": 10,
+            "percentage": 11.6
+          },
+          "AGE_3_TO_11": {
+            "count": 9,
+            "percentage": 10.5
+          },
+          "AGE_30_TO_39": {
+            "count": 9,
+            "percentage": 10.5
+          },
+          "AGE_50_TO_64": {
+            "count": 8,
+            "percentage": 9.3
+          }
+        },
+        "sex_at_birth": {
+          "FEMALE": {
+            "count": 49,
+            "percentage": 57.0
+          },
+          "MALE": {
+            "count": 37,
+            "percentage": 43.0
+          }
+        },
+        "fitzpatrick_skin_type": {
+          "FST4": {
+            "count": 22,
+            "percentage": 25.6
+          },
+          "FST5": {
+            "count": 14,
+            "percentage": 16.3
+          },
+          "FST2": {
+            "count": 14,
+            "percentage": 16.3
+          },
+          "FST1": {
+            "count": 12,
+            "percentage": 14.0
+          },
+          "FST3": {
+            "count": 12,
+            "percentage": 14.0
+          },
+          "FST6": {
+            "count": 12,
+            "percentage": 14.0
+          }
+        }
+      },
+      "race_ethnicity": {
+        "ethnicity_white": {
+          "count": 31,
+          "percentage": 36.0
+        },
+        "ethnicity_black": {
+          "count": 25,
+          "percentage": 29.1
+        },
+        "ethnicity_asian": {
+          "count": 30,
+          "percentage": 34.9
+        }
+      },
+      "body_parts": {
+        "parts_head": {
+          "count": 25,
+          "percentage": 29.1
+        },
+        "parts_arm": {
+          "count": 45,
+          "percentage": 52.3
+        },
+        "parts_leg": {
+          "count": 30,
+          "percentage": 34.9
+        },
+        "parts_torso": {
+          "count": 26,
+          "percentage": 30.2
+        }
+      },
+      "symptoms": {
+        "symptoms_itching": {
+          "count": 30,
+          "percentage": 34.9
+        },
+        "symptoms_pain": {
+          "count": 33,
+          "percentage": 38.4
+        },
+        "symptoms_burning": {
+          "count": 29,
+          "percentage": 33.7
+        }
+      },
+      "other_symptoms": {
+        "symptoms_fever": {
+          "count": 19,
+          "percentage": 22.1
+        },
+        "symptoms_fatigue": {
+          "count": 11,
+          "percentage": 12.8
+        }
+      },
+      "textures": {
+        "raised": {
+          "count": 25,
+          "percentage": 29.1
+        },
+        "flat": {
+          "count": 28,
+          "percentage": 32.6
+        },
+        "rough": {
+          "count": 33,
+          "percentage": 38.4
+        }
+      }
+    }
+  },
+  "Herpes Zoster": {
+    "sample_count": 104,
+    "features": {
+      "demographics": {
+        "age_group": {
+          "AGE_40_TO_49": {
+            "count": 22,
+            "percentage": 21.2
+          },
+          "AGE_12_TO_17": {
+            "count": 17,
+            "percentage": 16.3
+          },
+          "AGE_3_TO_11": {
+            "count": 15,
+            "percentage": 14.4
+          },
+          "AGE_50_TO_64": {
+            "count": 13,
+            "percentage": 12.5
+          },
+          "AGE_65_PLUS": {
+            "count": 13,
+            "percentage": 12.5
+          },
+          "AGE_0_TO_2": {
+            "count": 10,
+            "percentage": 9.6
+          },
+          "AGE_18_TO_29": {
+            "count": 9,
+            "percentage": 8.7
+          },
+          "AGE_30_TO_39": {
+            "count": 5,
+            "percentage": 4.8
+          }
+        },
+        "sex_at_birth": {
+          "MALE": {
+            "count": 54,
+            "percentage": 51.9
+          },
+          "FEMALE": {
+            "count": 50,
+            "percentage": 48.1
+          }
+        },
+        "fitzpatrick_skin_type": {
+          "FST2": {
+            "count": 24,
+            "percentage": 23.1
+          },
+          "FST1": {
+            "count": 20,
+            "percentage": 19.2
+          },
+          "FST5": {
+            "count": 17,
+            "percentage": 16.3
+          },
+          "FST3": {
+            "count": 17,
+            "percentage": 16.3
+          },
+          "FST4": {
+            "count": 14,
+            "percentage": 13.5
+          },
+          "FST6": {
+            "count": 12,
+            "percentage": 11.5
+          }
+        }
+      },
+      "race_ethnicity": {
+        "ethnicity_white": {
+          "count": 26,
+          "percentage": 25.0
+        },
+        "ethnicity_black": {
+          "count": 37,
+          "percentage": 35.6
+        },
+        "ethnicity_asian": {
+          "count": 41,
+          "percentage": 39.4
+        }
+      },
+      "body_parts": {
+        "parts_head": {
+          "count": 44,
+          "percentage": 42.3
+        },
+        "parts_arm": {
+          "count": 44,
+          "percentage": 42.3
+        },
+        "parts_leg": {
+          "count": 39,
+          "percentage": 37.5
+        },
+        "parts_torso": {
+          "count": 38,
+          "percentage": 36.5
+        }
+      },
+      "symptoms": {
+        "symptoms_itching": {
+          "count": 41,
+          "percentage": 39.4
+        },
+        "symptoms_pain": {
+          "count": 31,
+          "percentage": 29.8
+        },
+        "symptoms_burning": {
+          "count": 40,
+          "percentage": 38.5
+        }
+      },
+      "other_symptoms": {
+        "symptoms_fever": {
+          "count": 15,
+          "percentage": 14.4
+        },
+        "symptoms_fatigue": {
+          "count": 13,
+          "percentage": 12.5
+        }
+      },
+      "textures": {
+        "raised": {
+          "count": 33,
+          "percentage": 31.7
+        },
+        "flat": {
+          "count": 41,
+          "percentage": 39.4
+        },
+        "rough": {
+          "count": 30,
+          "percentage": 28.8
+        }
+      }
+    }
+  },
+  "Eczema": {
+    "sample_count": 104,
+    "features": {
+      "demographics": {
+        "age_group": {
+          "AGE_3_TO_11": {
+            "count": 18,
+            "percentage": 17.3
+          },
+          "AGE_65_PLUS": {
+            "count": 17,
+            "percentage": 16.3
+          },
+          "AGE_12_TO_17": {
+            "count": 16,
+            "percentage": 15.4
+          },
+          "AGE_18_TO_29": {
+            "count": 12,
+            "percentage": 11.5
+          },
+          "AGE_30_TO_39": {
+            "count": 12,
+            "percentage": 11.5
+          },
+          "AGE_0_TO_2": {
+            "count": 11,
+            "percentage": 10.6
+          },
+          "AGE_50_TO_64": {
+            "count": 10,
+            "percentage": 9.6
+          },
+          "AGE_40_TO_49": {
+            "count": 8,
+            "percentage": 7.7
+          }
+        },
+        "sex_at_birth": {
+          "MALE": {
+            "count": 57,
+            "percentage": 54.8
+          },
+          "FEMALE": {
+            "count": 47,
+            "percentage": 45.2
+          }
+        },
+        "fitzpatrick_skin_type": {
+          "FST4": {
+            "count": 20,
+            "percentage": 19.2
+          },
+          "FST5": {
+            "count": 19,
+            "percentage": 18.3
+          },
+          "FST3": {
+            "count": 19,
+            "percentage": 18.3
+          },
+          "FST2": {
+            "count": 17,
+            "percentage": 16.3
+          },
+          "FST1": {
+            "count": 16,
+            "percentage": 15.4
+          },
+          "FST6": {
+            "count": 13,
+            "percentage": 12.5
+          }
+        }
+      },
+      "race_ethnicity": {
+        "ethnicity_white": {
+          "count": 37,
+          "percentage": 35.6
+        },
+        "ethnicity_black": {
+          "count": 35,
+          "percentage": 33.7
+        },
+        "ethnicity_asian": {
+          "count": 32,
+          "percentage": 30.8
+        }
+      },
+      "body_parts": {
+        "parts_head": {
+          "count": 37,
+          "percentage": 35.6
+        },
+        "parts_arm": {
+          "count": 37,
+          "percentage": 35.6
+        },
+        "parts_leg": {
+          "count": 38,
+          "percentage": 36.5
+        },
+        "parts_torso": {
+          "count": 41,
+          "percentage": 39.4
+        }
+      },
+      "symptoms": {
+        "symptoms_itching": {
+          "count": 33,
+          "percentage": 31.7
+        },
+        "symptoms_pain": {
+          "count": 38,
+          "percentage": 36.5
+        },
+        "symptoms_burning": {
+          "count": 35,
+          "percentage": 33.7
+        }
+      },
+      "other_symptoms": {
+        "symptoms_fever": {
+          "count": 9,
+          "percentage": 8.7
+        },
+        "symptoms_fatigue": {
+          "count": 20,
+          "percentage": 19.2
+        }
+      },
+      "textures": {
+        "raised": {
+          "count": 35,
+          "percentage": 33.7
+        },
+        "flat": {
+          "count": 33,
+          "percentage": 31.7
+        },
+        "rough": {
+          "count": 36,
+          "percentage": 34.6
+        }
+      }
+    }
+  }
+}

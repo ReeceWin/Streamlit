@@ -1,0 +1,576 @@
+{
+  "Fungal infection": {
+    "name": "Fungal infection",
+    "symptoms": [],
+    "advice": [
+      "headaches",
+      "an itchy rash",
+      "stomach ache",
+      "feeling sick and diarrhoea"
+    ],
+    "source": "NHS UK Conditions Database",
+    "url": "https://www.nhs.uk/conditions/fungal-nail-infection/"
+  },
+  "Allergy": {
+    "name": "Allergy",
+    "symptoms": [],
+    "advice": [
+      "Consult a healthcare professional for advice on Allergy",
+      "Always follow the advice of qualified medical practitioners",
+      "Do not self-diagnose or self-medicate without professional guidance"
+    ],
+    "source": "Generic advice (NHS page not available)",
+    "url": "https://www.nhs.uk/search?collection=nhs-meta&q=Allergy"
+  },
+  "GERD": {
+    "name": "GERD",
+    "symptoms": [],
+    "advice": [
+      "omeprazole",
+      "lansoprazole",
+      "tests to find out what's causing your symptoms, such as a gastroscopy (where a thin tube with a camera inside it is passed down your throat and into your stomach)",
+      "tests to check for bacteria that can cause heartburn \u2013 this can be treated with a combination of antibiotics and PPIs",
+      "surgery on your stomach or food pipe (oesophagus) to stop acid reflux"
+    ],
+    "source": "NHS UK Conditions Database",
+    "url": "https://www.nhs.uk/conditions/heartburn-and-acid-reflux/"
+  },
+  "Chronic cholestasis": {
+    "name": "Chronic cholestasis",
+    "symptoms": [],
+    "advice": [
+      "Consult a healthcare professional for advice on Chronic cholestasis",
+      "Always follow the advice of qualified medical practitioners",
+      "Do not self-diagnose or self-medicate without professional guidance"
+    ],
+    "source": "Generic advice (NHS page not available)",
+    "url": "https://www.nhs.uk/search?collection=nhs-meta&q=Chronic+cholestasis"
+  },
+  "Drug Reaction": {
+    "name": "Drug Reaction",
+    "symptoms": [
+      "Skin rashes",
+      "Itching",
+      "Fever",
+      "Swelling",
+      "Breathing difficulties",
+      "Stomach pain"
+    ],
+    "advice": [
+      "Stop taking the medication if you suspect a drug reaction (unless advised otherwise by a doctor)",
+      "Seek immediate medical attention for severe reactions such as difficulty breathing or severe rash",
+      "For mild reactions, antihistamines may help relieve symptoms",
+      "Always inform healthcare providers about any previous drug reactions",
+      "Wear a medical ID bracelet if you have serious drug allergies"
+    ],
+    "source": "Manual entry based on NHS guidelines",
+    "url": "https://www.nhs.uk/conditions/allergies/"
+  },
+  "Peptic ulcer diseae": {
+    "name": "Peptic ulcer diseae",
+    "symptoms": [],
+    "advice": [
+      "Consult a healthcare professional for advice on Peptic ulcer diseae",
+      "Always follow the advice of qualified medical practitioners",
+      "Do not self-diagnose or self-medicate without professional guidance"
+    ],
+    "source": "Generic advice (NHS page not available)",
+    "url": "https://www.nhs.uk/search?collection=nhs-meta&q=Peptic+ulcer+diseae"
+  },
+  "AIDS": {
+    "name": "AIDS",
+    "symptoms": [
+      "Recurring fever",
+      "Extreme and unexplained tiredness",
+      "Rapid weight loss",
+      "Muscle wasting",
+      "Severe night sweats",
+      "Prolonged swelling of lymph glands",
+      "Chronic diarrhea",
+      "Patches in throat"
+    ],
+    "advice": [
+      "AIDS requires specialized medical treatment with antiretroviral medication",
+      "Consult a healthcare provider immediately for proper testing and treatment",
+      "Treatment can help manage HIV infection and prevent progression to AIDS",
+      "Support groups can provide emotional and practical assistance",
+      "Regular medical check-ups are essential to monitor the condition"
+    ],
+    "source": "Manual entry based on NHS guidelines",
+    "url": "https://www.nhs.uk/conditions/hiv-and-aids/"
+  },
+  "Diabetes": {
+    "name": "Diabetes",
+    "symptoms": [],
+    "advice": [
+      "Consult a healthcare professional for advice on Diabetes",
+      "Always follow the advice of qualified medical practitioners",
+      "Do not self-diagnose or self-medicate without professional guidance"
+    ],
+    "source": "Generic advice (NHS page not available)",
+    "url": "https://www.nhs.uk/search?collection=nhs-meta&q=Diabetes"
+  },
+  "Gastroenteritis": {
+    "name": "Gastroenteritis",
+    "symptoms": [],
+    "advice": [
+      "Diarrhoea and vomiting can usually be treated at home. The most important thing is to have lots of fluids to avoid dehydration.",
+      "stay at home and get plenty of rest",
+      "drink lots of fluids, such as water or squash \u2013 take small sips if you feel sick",
+      "carry on breast or bottle feeding your baby \u2013 if they're being sick, try giving small feeds more often than usual",
+      "give babies on formula or solid foods small sips of water between feeds"
+    ],
+    "source": "NHS UK Conditions Database",
+    "url": "https://www.nhs.uk/conditions/diarrhoea-and-vomiting/"
+  },
+  "Bronchial Asthma": {
+    "name": "Bronchial Asthma",
+    "symptoms": [
+      "wheezing",
+      "coughing",
+      "shortness of breath",
+      "your chest feeling tight"
+    ],
+    "advice": [
+      "If you have a blue reliever inhaler, take 1 puff every 30 to 60 seconds until you feel better, up to a maximum of 10 puffs. Shake the inhaler between each puff and use a spacer with the inhaler if you have one.",
+      "If you have an AIR or MART inhaler (used for both preventing and treating symptoms), take 1 puff every 1 to 3 minutes until you feel better, up to a maximum of 6 puffs."
+    ],
+    "source": "NHS UK Conditions Database",
+    "url": "https://www.nhs.uk/conditions/asthma/"
+  },
+  "Hypertension ": {
+    "name": "Hypertension ",
+    "symptoms": [],
+    "advice": [
+      "Consult a healthcare professional for advice on Hypertension ",
+      "Always follow the advice of qualified medical practitioners",
+      "Do not self-diagnose or self-medicate without professional guidance"
+    ],
+    "source": "Generic advice (NHS page not available)",
+    "url": "https://www.nhs.uk/search?collection=nhs-meta&q=Hypertension+"
+  },
+  "Migraine": {
+    "name": "Migraine",
+    "symptoms": [
+      "Moderate to severe headache",
+      "Pain on one side of the head",
+      "Pulsating or throbbing pain",
+      "Nausea and vomiting",
+      "Sensitivity to light and sound",
+      "Visual disturbances"
+    ],
+    "advice": [
+      "Rest in a quiet, dark room when experiencing a migraine",
+      "Apply a cold pack to your head or neck",
+      "Take over-the-counter pain medications like aspirin, ibuprofen, or acetaminophen",
+      "Try to maintain a regular sleep pattern",
+      "Keep a migraine diary to identify triggers",
+      "Consult a doctor if migraines are severe or frequent"
+    ],
+    "source": "Manual entry based on NHS guidelines",
+    "url": "https://www.nhs.uk/conditions/migraine/"
+  },
+  "Cervical spondylosis": {
+    "name": "Cervical spondylosis",
+    "symptoms": [],
+    "advice": [
+      "a nerve is being pinched by a slipped disc or bone (cervical radiculopathy)",
+      "there's a problem with your spinal cord (cervical myelopathy)"
+    ],
+    "source": "NHS UK Conditions Database",
+    "url": "https://www.nhs.uk/conditions/cervical-spondylosis/"
+  },
+  "Paralysis (brain hemorrhage)": {
+    "name": "Paralysis (brain hemorrhage)",
+    "symptoms": [],
+    "advice": [
+      "Consult a healthcare professional for advice on Paralysis (brain hemorrhage)",
+      "Always follow the advice of qualified medical practitioners",
+      "Do not self-diagnose or self-medicate without professional guidance"
+    ],
+    "source": "Generic advice (NHS page not available)",
+    "url": "https://www.nhs.uk/search?collection=nhs-meta&q=Paralysis+(brain+hemorrhage)"
+  },
+  "Jaundice": {
+    "name": "Jaundice",
+    "symptoms": [],
+    "advice": [
+      "Consult a healthcare professional for advice on Jaundice",
+      "Always follow the advice of qualified medical practitioners",
+      "Do not self-diagnose or self-medicate without professional guidance"
+    ],
+    "source": "Generic advice (NHS page not available)",
+    "url": "https://www.nhs.uk/search?collection=nhs-meta&q=Jaundice"
+  },
+  "Malaria": {
+    "name": "Malaria",
+    "symptoms": [
+      "a high temperature, sweats and chills",
+      "headaches and feeling confused",
+      "feeling very tired and sleepy (especially in children)",
+      "feeling and being sick, tummy pain and diarrhoea",
+      "loss of appetite",
+      "muscle pains",
+      "yellow skin or whites of the eyes",
+      "a sore throat, cough and difficulty breathing"
+    ],
+    "advice": [
+      "Malaria is an emergency and needs to be treated quickly.",
+      "It's treated with antimalarial medicines.",
+      "Some people will stay in hospital to have specialist care and treatment.",
+      "Malaria can sometimes come back and will need to be treated again if this happens.",
+      "Page last reviewed: 18 February 2022\n    Next review due: 18 February 2025"
+    ],
+    "source": "NHS UK Conditions Database",
+    "url": "https://www.nhs.uk/conditions/malaria/"
+  },
+  "Chicken pox": {
+    "name": "Chicken pox",
+    "symptoms": [],
+    "advice": [
+      "Consult a healthcare professional for advice on Chicken pox",
+      "Always follow the advice of qualified medical practitioners",
+      "Do not self-diagnose or self-medicate without professional guidance"
+    ],
+    "source": "Generic advice (NHS page not available)",
+    "url": "https://www.nhs.uk/search?collection=nhs-meta&q=Chicken+pox"
+  },
+  "Dengue": {
+    "name": "Dengue",
+    "symptoms": [
+      "a high temperature",
+      "a severe headache",
+      "pain behind your eyes",
+      "muscle and joint pain",
+      "feeling or being sick",
+      "swollen glands",
+      "a blotchy rash made up of flat or slightly raised spots \u2013 this can affect large areas of your body"
+    ],
+    "advice": [
+      "resting",
+      "drinking plenty of fluids",
+      "taking paracetamol to help bring down your temperature and ease any pain"
+    ],
+    "source": "NHS UK Conditions Database",
+    "url": "https://www.nhs.uk/conditions/dengue/"
+  },
+  "Typhoid": {
+    "name": "Typhoid",
+    "symptoms": [],
+    "advice": [
+      "Consult a healthcare professional for advice on Typhoid",
+      "Always follow the advice of qualified medical practitioners",
+      "Do not self-diagnose or self-medicate without professional guidance"
+    ],
+    "source": "Generic advice (NHS page not available)",
+    "url": "https://www.nhs.uk/search?collection=nhs-meta&q=Typhoid"
+  },
+  "hepatitis A": {
+    "name": "hepatitis A",
+    "symptoms": [],
+    "advice": [
+      "Hepatitis A usually clears up on its own within 3 to 6 months.",
+      "Your doctor may offer you medicines to help with the symptoms, such as painkillers or medicines to stop you feeling sick or itchy.",
+      "A small number of people with hepatitis A may get liver problems. You may need blood tests to check your liver is working properly."
+    ],
+    "source": "NHS UK Conditions Database",
+    "url": "https://www.nhs.uk/conditions/hepatitis-a/"
+  },
+  "Hepatitis B": {
+    "name": "Hepatitis B",
+    "symptoms": [],
+    "advice": [
+      "Hepatitis B usually clears up on its own without treatment. You may be offered medicine to help with the symptoms, such as painkillers or medicines to stop you feeling sick.",
+      "Your GP will refer you to see a liver specialist who will check how well your liver is working.",
+      "If hepatitis B lasts for over 6 months it is called long-term (chronic) hepatitis B.",
+      "It is usually treated with antivirals and medicine to help relieve symptoms such as itchiness, pain, and sickness. You will also need to see a liver specialist for regular check-ups."
+    ],
+    "source": "NHS UK Conditions Database",
+    "url": "https://www.nhs.uk/conditions/hepatitis-b/"
+  },
+  "Hepatitis C": {
+    "name": "Hepatitis C",
+    "symptoms": [
+      "flu-like symptoms, such as\u00a0muscle aches\u00a0and a high temperature (fever)",
+      "feeling tired all the time",
+      "loss of appetite",
+      "stomach ache",
+      "feeling and being sick"
+    ],
+    "advice": [
+      "Hepatitis C can be treated with medicines that stop the virus multiplying inside the body. These usually need to be taken for several weeks.",
+      "Until recently, most people would have taken 2 main medicines called pegylated interferon (a weekly injection) and ribavirin (a capsule or tablet).",
+      "Tablet-only treatments are now available.",
+      "These new hepatitis C medicines have been found to make treatment more effective, are easier to tolerate, and have shorter treatment courses.",
+      "They include sofosbuvir and daclatasvir."
+    ],
+    "source": "NHS UK Conditions Database",
+    "url": "https://www.nhs.uk/conditions/hepatitis-c/"
+  },
+  "Hepatitis D": {
+    "name": "Hepatitis D",
+    "symptoms": [],
+    "advice": [
+      "Consult a healthcare professional for advice on Hepatitis D",
+      "Always follow the advice of qualified medical practitioners",
+      "Do not self-diagnose or self-medicate without professional guidance"
+    ],
+    "source": "Generic advice (NHS page not available)",
+    "url": "https://www.nhs.uk/search?collection=nhs-meta&q=Hepatitis+D"
+  },
+  "Hepatitis E": {
+    "name": "Hepatitis E",
+    "symptoms": [],
+    "advice": [
+      "Consult a healthcare professional for advice on Hepatitis E",
+      "Always follow the advice of qualified medical practitioners",
+      "Do not self-diagnose or self-medicate without professional guidance"
+    ],
+    "source": "Generic advice (NHS page not available)",
+    "url": "https://www.nhs.uk/search?collection=nhs-meta&q=Hepatitis+E"
+  },
+  "Alcoholic hepatitis": {
+    "name": "Alcoholic hepatitis",
+    "symptoms": [],
+    "advice": [
+      "Consult a healthcare professional for advice on Alcoholic hepatitis",
+      "Always follow the advice of qualified medical practitioners",
+      "Do not self-diagnose or self-medicate without professional guidance"
+    ],
+    "source": "Generic advice (NHS page not available)",
+    "url": "https://www.nhs.uk/search?collection=nhs-meta&q=Alcoholic+hepatitis"
+  },
+  "Tuberculosis": {
+    "name": "Tuberculosis",
+    "symptoms": [],
+    "advice": [
+      "The main treatment for tuberculosis (TB) is to take antibiotics for at least 6 months.",
+      "If TB has spread to your brain, spinal cord or the area around your heart, you may also need to take steroid medicine for a few weeks.",
+      "If you have TB but do not have symptoms (latent TB) you usually need to take antibiotics for 3 to 6 months.",
+      "It's important to take your antibiotics correctly and until you've completed the course, even if you feel better. If you stop your treatment early, TB could come back."
+    ],
+    "source": "NHS UK Conditions Database",
+    "url": "https://www.nhs.uk/conditions/tuberculosis-tb/"
+  },
+  "Common Cold": {
+    "name": "Common Cold",
+    "symptoms": [],
+    "advice": [
+      "washing your hands with warm water and soap",
+      "not sharing towels or household items (like cups or children's toys) with someone who has a cold",
+      "not touching your eyes or nose in case you've come into contact with the virus",
+      "staying fit and healthy"
+    ],
+    "source": "NHS UK Conditions Database",
+    "url": "https://www.nhs.uk/conditions/common-cold/"
+  },
+  "Pneumonia": {
+    "name": "Pneumonia",
+    "symptoms": [
+      "a cough \u2013 you may cough up yellow or green mucus (phlegm)",
+      "shortness of breath",
+      "a high temperature",
+      "chest pain",
+      "an aching body",
+      "feeling very tired",
+      "loss of appetite",
+      "making wheezing noises when you breathe \u2013 babies may also make grunting noises",
+      "feeling confused \u2013 this is common in older people"
+    ],
+    "advice": [
+      "you're over 65",
+      "you have cardiovascular disease or a long-term lung condition",
+      "your baby or young child has pneumonia",
+      "you're very unwell"
+    ],
+    "source": "NHS UK Conditions Database",
+    "url": "https://www.nhs.uk/conditions/pneumonia/"
+  },
+  "Dimorphic hemmorhoids(piles)": {
+    "name": "Dimorphic hemmorhoids(piles)",
+    "symptoms": [],
+    "advice": [
+      "Consult a healthcare professional for advice on Dimorphic hemmorhoids(piles)",
+      "Always follow the advice of qualified medical practitioners",
+      "Do not self-diagnose or self-medicate without professional guidance"
+    ],
+    "source": "Generic advice (NHS page not available)",
+    "url": "https://www.nhs.uk/search?collection=nhs-meta&q=Dimorphic+hemmorhoids(piles)"
+  },
+  "Heart attack": {
+    "name": "Heart attack",
+    "symptoms": [
+      "chest pain\u00a0\u2013 a feeling of pressure, heaviness, tightness or squeezing across your chest",
+      "pain in other parts of the body \u2013 it can feel as if the pain is spreading from your chest to your arms (usually the left arm, but it can affect both arms), jaw, neck, back and tummy",
+      "feeling lightheaded or dizzy",
+      "sweating",
+      "shortness of breath",
+      "feeling sick (nausea) or being sick (vomiting)",
+      "an overwhelming feeling of anxiety (similar to a panic attack)",
+      "coughing or wheezing"
+    ],
+    "advice": [
+      "smokers should quit smoking",
+      "lose weight if you're overweight or obese",
+      "do regular exercise \u2013 adults should do at least 150 minutes (2 hours and 30 minutes) of\u00a0moderate-intensity aerobic exercise each week, unless advised otherwise by the doctor in charge of your care",
+      "eat a low-fat, high-fibre diet, including wholegrains and at least 5 portions of fruit and vegetables a day",
+      "moderate your alcohol consumption"
+    ],
+    "source": "NHS UK Conditions Database",
+    "url": "https://www.nhs.uk/conditions/heart-attack/"
+  },
+  "Varicose veins": {
+    "name": "Varicose veins",
+    "symptoms": [
+      "Twisted and enlarged veins, usually on legs",
+      "Blue or dark purple appearance",
+      "Swollen, raised veins",
+      "Aching legs",
+      "Burning or throbbing in legs",
+      "Muscle cramp in legs",
+      "Dry, itchy skin over affected veins"
+    ],
+    "advice": [
+      "Exercise regularly to improve circulation",
+      "Avoid standing or sitting for long periods",
+      "Elevate your legs when resting",
+      "Wear compression stockings to help blood flow",
+      "Consult a doctor if varicose veins are painful or causing discomfort",
+      "Medical treatments include endothermal ablation, sclerotherapy, or surgery in severe cases"
+    ],
+    "source": "Manual entry based on NHS guidelines",
+    "url": "https://www.nhs.uk/conditions/varicose-veins/"
+  },
+  "Hypothyroidism": {
+    "name": "Hypothyroidism",
+    "symptoms": [],
+    "advice": [
+      "Consult a healthcare professional for advice on Hypothyroidism",
+      "Always follow the advice of qualified medical practitioners",
+      "Do not self-diagnose or self-medicate without professional guidance"
+    ],
+    "source": "Generic advice (NHS page not available)",
+    "url": "https://www.nhs.uk/search?collection=nhs-meta&q=Hypothyroidism"
+  },
+  "Hyperthyroidism": {
+    "name": "Hyperthyroidism",
+    "symptoms": [
+      "nervousness, anxiety and irritability",
+      "mood swings",
+      "difficulty sleeping",
+      "persistent tiredness and weakness",
+      "sensitivity to heat",
+      "swelling in your neck from an enlarged thyroid gland (goitre)",
+      "an irregular and/or\u00a0unusually fast heart rate (palpitations)",
+      "twitching or trembling",
+      "weight loss"
+    ],
+    "advice": [
+      "medicine that stops\u00a0your thyroid producing too much of the thyroid hormones",
+      "radioiodine treatment \u2013\u00a0where a type of radiotherapy is used to destroy cells in the thyroid, reducing its ability to produce thyroid hormones",
+      "surgery\u00a0to remove some or all of your\u00a0thyroid, so that it no longer produces thyroid hormones"
+    ],
+    "source": "NHS UK Conditions Database",
+    "url": "https://www.nhs.uk/conditions/overactive-thyroid-hyperthyroidism/"
+  },
+  "Hypoglycemia": {
+    "name": "Hypoglycemia",
+    "symptoms": [],
+    "advice": [
+      "If you have diabetes and get symptoms of low blood sugar (a hypo) or your blood sugar is below 4mmol/L:",
+      "If someone has very low blood sugar (a severe hypo) and becomes unconscious:"
+    ],
+    "source": "NHS UK Conditions Database",
+    "url": "https://www.nhs.uk/conditions/low-blood-sugar-hypoglycaemia/"
+  },
+  "Osteoarthristis": {
+    "name": "Osteoarthristis",
+    "symptoms": [
+      "swelling",
+      "tenderness",
+      "grating or crackling sound when moving the affected joints"
+    ],
+    "advice": [
+      "Versus Arthritis: Osteoarthritis"
+    ],
+    "source": "NHS UK Conditions Database",
+    "url": "https://www.nhs.uk/conditions/osteoarthritis/"
+  },
+  "Arthritis": {
+    "name": "Arthritis",
+    "symptoms": [],
+    "advice": [
+      "Consult a healthcare professional for advice on Arthritis",
+      "Always follow the advice of qualified medical practitioners",
+      "Do not self-diagnose or self-medicate without professional guidance"
+    ],
+    "source": "Generic advice (NHS page not available)",
+    "url": "https://www.nhs.uk/search?collection=nhs-meta&q=Arthritis"
+  },
+  "Acne": {
+    "name": "Acne",
+    "symptoms": [
+      "Greasy skin",
+      "Spots and blackheads",
+      "Skin inflammation",
+      "Scarring"
+    ],
+    "advice": [
+      "Wash affected areas with mild soap or cleanser and lukewarm water",
+      "Don't wash too often as it can irritate skin",
+      "Use oil-free or water-based products on your face",
+      "Avoid squeezing spots as it can cause scarring",
+      "Over-the-counter treatments containing benzoyl peroxide may help",
+      "If acne is severe or affecting your self-esteem, consult a GP"
+    ],
+    "source": "Manual entry based on NHS guidelines",
+    "url": "https://www.nhs.uk/conditions/acne/"
+  },
+  "Urinary tract infection": {
+    "name": "Urinary tract infection",
+    "symptoms": [],
+    "advice": [
+      "offer self-care advice and recommend taking a painkiller",
+      "give you a prescription for a short course of antibiotics",
+      "give you a prescription for antibiotics, but suggest you wait for 48 hours before taking them in case your symptoms go away on their own",
+      "prescribe a different antibiotic or prescribe a low-dose antibiotic to take for up to 6 months",
+      "prescribe a vaginal cream containing oestrogen, if you have gone through the menopause",
+      "refer you to a specialist for further tests and treatments"
+    ],
+    "source": "NHS UK Conditions Database",
+    "url": "https://www.nhs.uk/conditions/urinary-tract-infections-utis/"
+  },
+  "Psoriasis": {
+    "name": "Psoriasis",
+    "symptoms": [],
+    "advice": [
+      "Consult a healthcare professional for advice on Psoriasis",
+      "Always follow the advice of qualified medical practitioners",
+      "Do not self-diagnose or self-medicate without professional guidance"
+    ],
+    "source": "Generic advice (NHS page not available)",
+    "url": "https://www.nhs.uk/search?collection=nhs-meta&q=Psoriasis"
+  },
+  "Impetigo": {
+    "name": "Impetigo",
+    "symptoms": [],
+    "advice": [
+      "hydrogen peroxide cream if it's in 1 area",
+      "antibiotic cream or tablets if it's more widespread",
+      "antibiotic tablets if you have bullous impetigo"
+    ],
+    "source": "NHS UK Conditions Database",
+    "url": "https://www.nhs.uk/conditions/impetigo/"
+  },
+  "(vertigo) Paroymsal  Positional Vertigo": {
+    "name": "(vertigo) Paroymsal  Positional Vertigo",
+    "symptoms": [],
+    "advice": [
+      "Consult a healthcare professional for advice on (vertigo) Paroymsal  Positional Vertigo",
+      "Always follow the advice of qualified medical practitioners",
+      "Do not self-diagnose or self-medicate without professional guidance"
+    ],
+    "source": "Generic advice (NHS page not available)",
+    "url": "https://www.nhs.uk/search?collection=nhs-meta&q=(vertigo)+Paroymsal++Positional+Vertigo"
+  }
+}
