@@ -157,7 +157,7 @@ def train_model(train_records, test_records, data_processor):
     return model
 
 
-def save_model(model, output_dir="./models"):
+def save_model(model, output_dir="./model_data"):
     """Save the trained model"""
     os.makedirs(output_dir, exist_ok=True)
     joblib.dump(model, os.path.join(output_dir, "disease_model.joblib"))
