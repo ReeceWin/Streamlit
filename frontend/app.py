@@ -131,8 +131,8 @@ def load_skin_model_and_metadata():
 
     # Define the possible locations where your trained model files might be
     possible_paths = [
-        ("../", "model_metadata.joblib", "final_skin_model.pth"), # Current directory
-        ("../models/", "model_metadata.joblib", "final_skin_model.pth"), # 'models' subdirectory
+        ("/", "model_metadata.joblib", "final_skin_model.pth"), # Current directory
+        ("/models/", "model_metadata.joblib", "final_skin_model.pth"), # 'models' subdirectory
     ]
 
     for base_p, metadata_fn, model_fn in possible_paths:
@@ -195,7 +195,7 @@ def load_symptom_checker():
         # medical_advice = MedicalAdviceProvider() # Not directly used by SymptomCheckerBot in dummy
         
         # Create dummy model_data dir if it doesn't exist for SymptomCheckerBot
-        model_data_dir_path = "../model_data" # As per your original path
+        model_data_dir_path = "/model_data" # As per your original path
         if not os.path.exists(model_data_dir_path):
              os.makedirs(model_data_dir_path, exist_ok=True)
              print(f"Created dummy directory: {model_data_dir_path}")
