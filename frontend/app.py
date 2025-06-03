@@ -197,7 +197,7 @@ def load_symptom_checker():
         # medical_advice = MedicalAdviceProvider() # Not directly used by SymptomCheckerBot in dummy
         
         # Use relative path for model_data directory
-        model_data_dir_path = "model_data" # Relative path
+        model_data_dir_path = "models" # Relative path
         if not os.path.exists(model_data_dir_path):
             try:
                 os.makedirs(model_data_dir_path, exist_ok=True)

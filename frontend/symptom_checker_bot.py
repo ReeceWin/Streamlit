@@ -11,7 +11,7 @@ class SymptomCheckerBot:
     and provides medical advice from the NHS conditions database.
     """
     
-    def __init__(self, model_data_dir="model_data", medical_db="medical_advice_database.json"):
+    def __init__(self, model_data_dir="models", medical_db="medical_advice_database.json"):
         print("Initializing Symptom Checker Bot...")
         
         # Load the model

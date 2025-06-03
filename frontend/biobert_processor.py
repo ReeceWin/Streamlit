@@ -10,7 +10,7 @@ class BioBERTProcessor:
     - Extracting symptoms from natural language
     """
     
-    def __init__(self, model_name="dmis-lab/biobert-v1.1", model_data_dir="model_data"):
+    def __init__(self, model_name="dmis-lab/biobert-v1.1", model_data_dir="models"):
         print("Initializing BioBERT processor...")
         
         # Load the BioBERT model and tokenizer
