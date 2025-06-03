@@ -200,11 +200,13 @@ class SymptomCheckerBot:
     def generate_response(self, user_input):
         """Generate a response based on the current conversation stage"""
         if self.conversation_stage == "greeting":
-            # Initial greeting
+            # The app.py has already prompted for symptoms.
+            # user_input here is the first set of symptoms.
             self.conversation_stage = "collecting_symptoms"
-            return "Please describe your symptoms."
-        
-        elif self.conversation_stage == "collecting_symptoms":
+            # No return statement here; processing will fall through to the
+            # "collecting_symptoms" stage with the current user_input.
+
+        if self.conversation_stage == "collecting_symptoms": # Changed from elif to if
             # Check if this is a yes/no response to our question
             if self.process_yes_no(user_input):
                 # User answered our question, acknowledge and continue
@@ -235,11 +237,6 @@ class SymptomCheckerBot:
                     
                     # Explain any differences between user terms and medical terms
                     mappings = []
-                    for s in new_symptoms:
-                        user_term = self.user_symptom_terms[s]
-                        medical_term = s.replace('_', ' ')
-                        if user_term.lower() != medical_term.lower():
-                            mappings.append(f"'{user_term}' (medically known as '{medical_term}')")
                     
                     if mappings:
                         response += f"In medical terms, I'm recognizing {', '.join(mappings)}. "

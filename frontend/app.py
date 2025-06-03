@@ -13,26 +13,24 @@ import io
 from datetime import datetime
 import re
 
-# Prevent Streamlit from watching the torch module
-# os.environ["STREAMLIT_WATCH_MODULES"] = "false" # Keep if needed, but often not the root cause for this type of issue
 
-# Import components from symptom checker system (ensure these files are accessible)
-# Assuming these files are in the same directory or properly pathed
-# Create dummy files if they don't exist for testing this specific issue
 if not os.path.exists("symptom_checker_bot.py"):
     with open("symptom_checker_bot.py", "w") as f:
         f.write("""
 class SymptomCheckerBot:
     def __init__(self, model_data_dir=None, medical_db=None):
-        self.greeted = False
+        self.greeted = True  # Changed from False to True
         print("SymptomCheckerBot initialized")
     def generate_response(self, user_input):
-        if not self.greeted:
+        if not self.greeted: # This block will now be skipped on the first call
             self.greeted = True
             return "Hello from SymptomCheckerBot! How can I help you with your symptoms?"
         if "done" in user_input.lower():
             return "Okay, understood. Let me know if you need anything else."
         return f"SymptomCheckerBot received: {user_input}. Please tell me more or type 'done'."
+    def reset_conversation(self):
+        self.greeted = False
+        print("SymptomCheckerBot conversation reset")
 """)
 if not os.path.exists("biobert_processor.py"):
     with open("biobert_processor.py", "w") as f:
@@ -377,7 +375,7 @@ def add_chat_message(role, content):
         st.markdown(content)
 
 def process_symptom_chat(user_input, symptom_checker):
-    add_chat_message("user", user_input)
+    add_chat_message("user", user_input) # Re-added this line
     if symptom_checker:
         response = symptom_checker.generate_response(user_input)
         add_chat_message("assistant", response)
@@ -388,9 +386,18 @@ def process_symptom_chat(user_input, symptom_checker):
 def reset_chat():
     keys_to_delete = [key for key in st.session_state.keys() if key != 'show_debug']
     for key in keys_to_delete:
-        del st.session_state[key]
-    # Re-initialize after clearing
+        if key in st.session_state:
+            del st.session_state[key]
+    
+    # Re-initialize chat state for UI
     initialize_chat_state()
+
+    # Reset the internal state of the symptom checker bot
+    symptom_checker, symptom_checker_loaded = load_symptom_checker() # Get the bot instance
+    if symptom_checker_loaded and hasattr(symptom_checker, 'reset_conversation'):
+        symptom_checker.reset_conversation()
+        st.toast("Symptom checker bot has been reset.")
+
     st.rerun()
 
 
