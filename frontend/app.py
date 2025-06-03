@@ -131,8 +131,10 @@ def load_skin_model_and_metadata():
 
     # Define the possible locations where your trained model files might be
     possible_paths = [
-        ("/", "model_metadata.joblib", "final_skin_model.pth"), # Current directory
-        ("/models/", "model_metadata.joblib", "final_skin_model.pth"), # 'models' subdirectory
+        ("", "model_metadata.joblib", "final_skin_model.pth"), # Current frontend directory
+        ("models", "model_metadata.joblib", "final_skin_model.pth"), # 'models' subdirectory in frontend
+        ("dummy_models", "model_metadata.joblib", "final_skin_model.pth"), # 'dummy_models' subdirectory in frontend
+        ("../", "model_metadata.joblib", "final_skin_model.pth"), # Parent directory (Artifact root)
     ]
 
     for base_p, metadata_fn, model_fn in possible_paths:
@@ -194,11 +196,15 @@ def load_symptom_checker():
         # biobert = BioBERTProcessor() # Not directly used by SymptomCheckerBot in dummy
         # medical_advice = MedicalAdviceProvider() # Not directly used by SymptomCheckerBot in dummy
         
-        # Create dummy model_data dir if it doesn't exist for SymptomCheckerBot
-        model_data_dir_path = "/model_data" # As per your original path
+        # Use relative path for model_data directory
+        model_data_dir_path = "model_data" # Relative path
         if not os.path.exists(model_data_dir_path):
-             os.makedirs(model_data_dir_path, exist_ok=True)
-             print(f"Created dummy directory: {model_data_dir_path}")
+            try:
+                os.makedirs(model_data_dir_path, exist_ok=True)
+                print(f"Created directory for symptom checker: {model_data_dir_path}")
+            except PermissionError:
+                st.error(f"Permission denied to create directory: {model_data_dir_path}. Ensure this path is writable or already exists with your models.")
+                return None, False
 
         checker = SymptomCheckerBot(model_data_dir=model_data_dir_path, medical_db="medical_advice_database.json")
         st.success("Symptom checker loaded.")
